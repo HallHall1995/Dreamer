@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Sleeper</title>
+<link rel="stylesheet" type="text/css" href="main.css">
+<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="onother.js"></script>
+
+</head>
+
+<body>
+<div id="main">
+	<div id="pack">
+    	<div id="space"></div>
+    	<div id="title"><img src="img/title.jpg"></div>
+        
+        <div id="box_pack">
+        	<div id="left_pack">
+            	<div id="left_box">
+                	<div id="word">ユーザーID</div>
+                    <div id="word">パスワード</div>
+                </div>
+                <div id="right_box">
+                		<form action="menu.php" method="post">
+                        	<input type="hidden" name="battle_or" value="0" />
+                			<div id="word"><input type="text" size="10"  name="userID"/></div>
+                    		<div id="word"><input type="text" size="10" name="passward" /></div>
+                    		<div id="word"><input type="submit" value="ログイン" style="width:100px; height:30px;" /></div>
+                      </form>
+                </div>
+            </div>
+        	<div id="right_pack">
+            	<div id="left_box">
+                	<div id="word">登録ID</div>
+                    <div id="word">パスワード</div>
+                </div>
+                <div id="right_box">
+                <form action="story.php" method="post">
+                		<div id="word"><input type="text" size="10" name="userID" /></div>
+                    <div id="word"><input type="text" size="10"  name="passward"/></div>
+                    <input type="hidden" value="1" name="first">
+                    <div id="word"><input type="submit" value="登録" style="width:100px; height:30px;" /></div>
+                </form>
+                </div>
+            </div>
+        </div>
+	</div>
+</div>
+</body>
+</html>

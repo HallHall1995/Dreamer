@@ -1,0 +1,111 @@
+@charset "utf-8";
+/* CSS Document */
+#clear{
+	clear:both;
+}
+
+#main{ 
+	width:100%; 
+	height:100%;
+	border:1px solid #000; 
+	background-color:#000000;
+	margin-top:-10px;
+}
+
+#pack{ 
+	width:1000px;
+	height:700px;
+	margin:0 auto;
+	background-image:url(img/battle.jpg);
+}
+
+#space{
+	height:1px;
+}
+
+#skip{
+	width:200px;
+	height:100px;
+	float:right;
+	margin-top:10px;
+	margin-right:40px;
+	background-image:url(img/speed_of.jpg);
+}
+
+#enemy_box{
+	width:300px;
+	height:400px;
+	margin-top:-50px;
+	margin-left:350px;	
+}
+
+#enemy_name{
+	width:300px;
+	height:30px;
+	font-size:24px;
+}
+
+#enemy_img{
+	width:300px;
+	height:300px;
+	margin-top:5px;
+	background-color:#ADADAD;
+}
+
+#enemy_hp1{
+	width:300px;
+	height:30px;
+	margin-top:30px;
+	position:relative;
+	z-index:0;
+	background-color:#CFCFCF;
+}
+
+#enemy_hp2{
+	width:200px;
+	height:30px;
+	margin-top:-30px;
+	position:relative;
+	z-index:1;
+	background-color:#000000;
+}
+
+#me_pack{
+	width:1000px;
+	height:200px;
+	margin-top:40px;
+}
+
+#chara_pack{
+	width:200px;
+	height:200px;
+	float:left;	
+}
+
+#chara_image{
+	width:180px;
+	height:180px;
+	margin:0px 10px;
+	background-size:cover;
+}
+
+#chara_hp{
+	width:180px;
+	height:20px;
+	position:relative;
+	z-index:0;
+	margin:0px 10px;
+	margin-bottom:0px;
+	background-color:#CFCFCF;
+}
+
+#chara_hp2{
+	width:180px;
+	height:20px;
+	position:relative;
+	z-index:1;
+	margin:-20px 10px;
+	margin-bottom:0px;	
+	background-color:#000000;
+}
+

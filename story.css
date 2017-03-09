@@ -1,0 +1,65 @@
+@charset "utf-8";
+/* CSS Document */
+#clear{
+	clear:both;
+}
+
+#main{ 
+	width:100%; 
+	height:100%;
+	border:1px solid #000; 
+	background-color:#000000;
+	margin-top:-10px;
+}
+
+#pack{ 
+	width:1000px;
+	height:700px;
+	margin:0 auto;
+	background-image:url(img/story_back.jpg);
+}
+
+#space{
+	height:1px;
+}
+
+#image1{
+	width:200px;
+	height:200px;
+	margin-top:250px;
+	margin-left:250px;
+	display:none;
+	background-size:cover;
+	float:left;
+}
+
+#image2{
+	width:200px;
+	height:200px;
+	margin-top:250px;
+	margin-left:100px;
+	background-size:cover;
+	float:left;
+}
+
+#serihi_box{
+	width:860px;
+	height:180px;
+	margin:0px 100px;
+	margin-top:60px;
+}
+
+#name_box{
+	width:400px;
+	height:40px;
+	margin-left:40px;
+	font-size:36px;
+}
+
+#serihu{
+	width:860px; 
+	height:130px; 	
+	margin-top:10px;
+	font-size:20px;
+	line-height:25px;
+}

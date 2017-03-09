@@ -1,0 +1,75 @@
+@charset "utf-8";
+/* CSS Document */
+#clear{
+	clear:both;
+}
+
+#main{ 
+	width:100%; 
+	height:100%;
+	border:1px solid #000; 
+	background-color:#000000;
+	margin-top:-10px;
+}
+
+#pack{ 
+	width:1000px;
+	height:700px;
+	margin:0 auto;
+	background-image:url(img/start_back.jpg);
+}
+
+#space{
+	height:1px;
+}
+
+#title{ 
+	width:300px; 
+	height:100px; 
+	margin-top:50px;
+	margin-left:345px;
+	background-color:#BC9191;
+}
+
+#box_pack{ 
+	width:700px; 
+	height:280px; 
+	margin-top:60px; 
+	margin-left:150px; 
+	display:none;
+}
+
+#left_pack{ 
+	width:280px; 
+	height:280px; 
+	margin-left:50px; 
+	float:left;
+	background-image:url(img/box.jpg);
+}
+
+#right_pack{ 
+	width:280px; 
+	height:280px; 
+	margin-left:40px; 
+	float:left; 
+	background-image:url(img/box.jpg)
+}
+
+#left_box{
+	width:100px;
+	margin-top:40px;
+	margin-left:30px;
+	float:left;
+}
+
+#right_box{
+	width:120px;
+	margin-top:40px;
+	margin-left:10px;
+	float:left;
+}
+
+#word{ 
+	margin-top:30px;
+	font-size:20px;
+}
